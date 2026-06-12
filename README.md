@@ -2,6 +2,9 @@
 
 A Deep Learning NLP model that classifies SMS messages as either **"ham"** (legitimate) or **"spam"** (unwanted/advertisement). Built with TensorFlow/Keras, this project leverages a **1D Convolutional Neural Network (CNN)** to efficiently identify spam trigger phrases while avoiding the common pitfalls of overfitting on small datasets.
 
+
+![Preview](https://drive.google.com/uc?export=view&id=1FOL0fL-b82OUV1LxfCx2aeXAMkl3heq9)
+
 ---
 
 ## 🚀 Live Demo / Project Link
@@ -9,7 +12,6 @@ A Deep Learning NLP model that classifies SMS messages as either **"ham"** (legi
 This project was developed and tested in Google Colaboratory.
 **[Click here to view the Colab Notebook](https://colab.research.google.com/drive/1KhcQEdaidaqPXWG7iVQDBFYkz8FvkLca#scrollTo=YMYQPXSiDYP3)**
 
-![Preview](https://drive.google.com/uc?export=view&id=1FOL0fL-b82OUV1LxfCx2aeXAMkl3heq9)
 
 ---
 
@@ -86,13 +88,12 @@ pip install tensorflow pandas numpy scikit-learn matplotlib seaborn
 The model includes a `predict_message()` function that returns the probability and the classification label:
 
 ```python
-prediction = predict_message("you have won £1000 cash! call to claim your prize.")
-print(prediction)
-# Output: [0.9874, 'spam']
 
-prediction = predict_message("how are you doing today?")
-print(prediction)
-# Output: [0.0021, 'ham']
+📩 Message: 'how are you doing today?'
+🔍 Prediction: HAM (99.95% confidence)
+
+📩 Message: 'Congratulations! You've won a $1,000 Walmart gift card. Go to http://bit.ly/1234 to claim now.'
+🔍 Prediction: SPAM (96.81% confidence)
 ```
 
 ---
