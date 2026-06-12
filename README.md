@@ -7,10 +7,9 @@ A Deep Learning NLP model that classifies SMS messages as either **"ham"** (legi
 ## 🚀 Live Demo / Project Link
 
 This project was developed and tested in Google Colaboratory.
-
 **[Click here to view the Colab Notebook](https://colab.research.google.com/drive/1KhcQEdaidaqPXWG7iVQDBFYkz8FvkLca#scrollTo=YMYQPXSiDYP3)**
 
-![Preview](https://drive.google.com/uc?export=view&id=1FOL0fL-b82OUV1LxfCx2aeXAMkl3heq9-)
+![Preview](https://drive.google.com/uc?export=view&id=1FOL0fL-b82OUV1LxfCx2aeXAMkl3heq9)
 
 ---
 
